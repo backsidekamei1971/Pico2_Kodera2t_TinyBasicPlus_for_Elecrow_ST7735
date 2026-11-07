@@ -1,6 +1,7 @@
 # Pico2_RP2035_Kodera2t_TinyBasicPlus
 まず先に、この書込みプログラムは以下のようなElecrow ST7735Sディスプレイでないと何も画面に映らない<br>
-<img width="1504" height="952" alt="IMG_7877" src="https://github.com/user-attachments/assets/f7c8a170-b9ed-4d62-8b92-7e8cc08852e5" />
+<img width="1029" height="717" alt="IMG_9100" src="https://github.com/user-attachments/assets/997b0fc1-cc11-448d-aa1b-4feeaeb0c454" />
+
 Kodera2t TinyBasicPlusシリーズの中で、<br>
 これ↓だけが上手く【Pico2】に入る【Pico】には入らない<br>
 https://github.com/kodera2t/tinyBASIC_OLED/blob/master/ATMega328P%2BColorLCD/Ada_ATMega328_LCD.ino <br>
