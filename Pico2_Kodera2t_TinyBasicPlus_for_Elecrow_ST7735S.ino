@@ -5,7 +5,7 @@
 // Authors: Mike Field <hamster@snap.net.nz>
 //	    Scott Lawrence <yorgle@gmail.com>
 //          Dan
-//          kodera2t
+//         kodera2t
 
 #define kVersion "v0.15"
 // Special version for ATMega328, it provides just 296 bytes free memory.. (due to small
