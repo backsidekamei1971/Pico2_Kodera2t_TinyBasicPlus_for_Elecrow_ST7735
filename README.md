@@ -1,4 +1,4 @@
-# Pico2_RP2035_Kodera2t_TinyBasicPlus
+# Pico2_RP2035_Kodera2t_TinyBasicPlus_Elecrow OLEDのみ
 まず先に、この書込みプログラムは以下のようなElecrow ST7735Sディスプレイでないと何も画面に映らない<br>
 <img width="1029" height="717" alt="IMG_9100" src="https://github.com/user-attachments/assets/997b0fc1-cc11-448d-aa1b-4feeaeb0c454" />
 
