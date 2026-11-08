@@ -2478,8 +2478,6 @@ static void line_terminator(void)
 void setup()
 {
 #ifdef ARDUINO
-SPI.setTx(TFT_MOSI);
-SPI.setSCK(TFT_SCLK);
 
 ////////////////////////////////////
   	Serial.begin(4800);	// opens serial port, sets data rate to 4800 bps
