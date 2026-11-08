@@ -112,7 +112,7 @@
 //#include <Adafruit_SSD1306.h>
 
 // SPI PIN definition. Change to fit your board....
-#define TFT_CS     10
+#define TFT_CS     17
 ///////////// TFT_RST and TFT_DC is swapped to original Adafruit code /////////////
 ///////// Please swap if you use some standard shield ////////////////////////////
 #define TFT_RST    22
