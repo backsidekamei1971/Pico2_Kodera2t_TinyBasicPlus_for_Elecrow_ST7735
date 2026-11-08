@@ -115,11 +115,11 @@
 #define TFT_CS     10
 ///////////// TFT_RST and TFT_DC is swapped to original Adafruit code /////////////
 ///////// Please swap if you use some standard shield ////////////////////////////
-#define TFT_RST    8  
-#define TFT_DC     9
+#define TFT_RST    22
+#define TFT_DC     28
 Adafruit_ST7735 tft = Adafruit_ST7735(TFT_CS,  TFT_DC, TFT_RST);
-#define TFT_SCLK 13   // set these to be whatever pins you like!
-#define TFT_MOSI 11   // set these to be whatever pins you like!
+#define TFT_SCLK 18  // set these to be whatever pins you like!
+#define TFT_MOSI 19  // set these to be whatever pins you like!
 
 int screenMem[274]; //the implementation of frame buffer is referenced from Ben Heck's
 int cursorX = 0;    //Retro BASIC computer's source
@@ -2478,6 +2478,8 @@ static void line_terminator(void)
 void setup()
 {
 #ifdef ARDUINO
+SPI.setTx(TFT_MOSI);
+SPI.setSCK(TFT_SCLK);
 
 ////////////////////////////////////
   	Serial.begin(4800);	// opens serial port, sets data rate to 4800 bps
